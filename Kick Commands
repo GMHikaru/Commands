@@ -1,0 +1,32 @@
+### !song
+!addcom !song fetch[http://157.230.186.247:8888/lastfm/current]
+
+### !fide
+!addcom !fide fetch[http://157.230.186.247:8888/chess/fide?playerName=$(variable)]
+
+### !whois
+!addcom !whois fetch[http://157.230.186.247:8888/chess/whois?playerName=$(v1)]
+
+### !rating // use info: https://skrewz07.blogspot.com/2021/01/rating.html
+!addcom !rating fetch[http://157.230.186.247:8888/chess/rating?playerName=$(variable)]
+
+### !blitz
+!addcom !blitz fetch[http://157.230.186.247:8888/chess/rating?playerName=$(v1)%20blitz]
+
+### !bullet
+!addcom !bullet fetch[http://157.230.186.247:8888/chess/rating?playerName=$(v1)%20bullet]
+
+### !rapid
+!addcom !rapid fetch[http://157.230.186.247:8888/chess/rating?playerName=$(v1)%20rapid]
+
+### !newvid
+!addcom !newvid fetch[http://157.230.186.247:8888/youtube/recent?channel=UCweCc7bSMX5J4jEH7HFImng]
+
+### !newclip
+!addcom !newclip Check out this clip!! fetch[http://157.230.186.247:8888/youtube/recent?channel=UCk9Uv2l1rXWII5i2vu1y_bA]
+
+### !moregm
+!addcom !moregm The latest video up on More GMHikaru is: fetch[http://157.230.186.247:8888/youtube/recent?channel=UC57kv9u2zRWk6n8sTrhgIUg]
+
+### !giveaway // use info: https://skrewz07.blogspot.com/2021/02/giveaway.html
+!addcom !giveaway fetch[http://157.230.186.247:8888/chess/giveaway?user=$(sender)&params=$(variable)]
