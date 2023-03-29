@@ -20,7 +20,7 @@
 !addcom !rapid fetch[http://157.230.186.247:8888/chess/rating?playerName=$(v1)%20rapid]
 
 ### !newvid
-!addcom !newvid fetch[http://157.230.186.247:8888/youtube/recent?channel=UCweCc7bSMX5J4jEH7HFImng]
+!addcom  Check out GMHikaru's newest YouTube Vid - !newvid fetch[http://157.230.186.247:8888/youtube/recent?channel=UCweCc7bSMX5J4jEH7HFImng]
 
 ### !newclip
 !addcom !newclip Check out this clip!! fetch[http://157.230.186.247:8888/youtube/recent?channel=UCk9Uv2l1rXWII5i2vu1y_bA]
