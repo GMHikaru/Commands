@@ -4,7 +4,7 @@
 ### !fide
 !addcom !fide fetch[http://157.230.186.247:8888/chess/fide?playerName=$(variable)]
 
-### !whois
+### !whois // works on Chesscom AND Lichess
 !addcom !whois fetch[http://157.230.186.247:8888/chess/whois?playerName=$(v1)]
 
 ### !rating // use info: https://skrewz07.blogspot.com/2021/01/rating.html
